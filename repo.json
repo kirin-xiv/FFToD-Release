@@ -1,21 +1,30 @@
+
 [
   {
     "Author": "Kirin",
     "Name": "Truth or Dare",
     "InternalName": "Truth or Dare",
     "AssemblyVersion": "1.0.0.0",
-    "Description": "Run ToD, Brain off!",
+    "Description": "Truth or Dare mini-game automation plugin for FFXIV",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kirin-xiv/FFToD-Release",
-    "Tags": [ "ToD", "TruthorDare", "dice games" ],
-    "Punchline": "Easy ToD",
-    "Changelog": "- Anotha one. \n- Love, Kiri",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/main/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/main/latest.zip",
-    "IconUrl": "https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/main/icon.ico",
-    "ImageUrls": [],
+    "Tags": ["minigame", "social", "chat", "automation", "rolls"],
+    "DalamudApiLevel": 12,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Run ToD, Brain off!",
+    "AcceptsFeedback": true,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "IsTestingPlugin": false
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/main/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/main/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/main/latest.zip",
+    "DownloadCount": 0,
+    "LastUpdate": 0,
+    "IconUrl": "https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/main/icon.ico",
+    "ImageUrls": [],
+    "Changelog": "- Initial release\n- Roll detection and winner selection\n- No repeat winners"
   }
 ]
