@@ -1,16 +1,23 @@
 {
   "Author": "Kirin",
-  "Name": "Truth or Dare Plugin",
+  "Name": "Truth or Dare",
   "InternalName": "TruthOrDarePlugin",
   "AssemblyVersion": "1.0.0.0",
-  "Description": "A comprehensive plugin that automates Truth or Dare games in FFXIV. Features include automatic roll parsing from chat, smart winner selection (skipping repeat winners), strip detection for low rolls, configurable timeouts, and automatic result posting. Eliminates the need for manual chat copying and external scripts.",
+  "Description": "Truth or Dare mini-game automation plugin for FFXIV",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/kirin-xiv/TruthOrDarePlugin",
+  "RepoUrl": "https://github.com/kirin-xiv/FFToD",
+  "Tags": [
+    "minigame",
+    "social",
+    "chat",
+    "automation",
+    "rolls"
+  ],
   "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Automates Truth or Dare game management with roll tracking and winner calculation.",
+  "Punchline": "Run ToD, Brain off!",
   "AcceptsFeedback": true
 }
