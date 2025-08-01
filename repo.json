@@ -23,7 +23,7 @@
     "DownloadLinkTesting": "https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/main/latest.zip",
     "DownloadCount": 0,
     "LastUpdate": 0,
-    "IconUrl": "https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/main/icon.ico",
+    "IconUrl": "https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/refs/heads/main/icon.ico",
     "ImageUrls": [],
     "Changelog": "- Initial release\n- Roll detection and winner selection\n- No repeat winners"
   }
