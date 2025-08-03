@@ -6,10 +6,13 @@ Automates Truth or Dare games in FFXIV by tracking rolls and determining winners
 
 ## 🎯 What It Does
 
-- **Automatically detects** `/random` rolls during your Truth or Dare games
+- **Automatically detects /random rolls** during your Truth or Dare games
+- **Smart tiebreaker system** - when multiple people roll the same number, whoever rolled first wins
 - **Prevents repeat winners** - skips to the next highest roll if the same person won last round
+- **Pass to next winner** - easily move the win to the next highest roller if someone declines
 - **Identifies strippers** - anyone who rolls 100 or under
-- **Outputs results** directly to your chat for easy copy/paste
+- **Outputs results directly** to your chat for easy copy/paste
+- **Debug mode** for easy testing with /random 2
 
 ## 📥 Installation
 
@@ -17,16 +20,18 @@ Automates Truth or Dare games in FFXIV by tracking rolls and determining winners
    ```
    https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/main/repo.json
    ```
+
 2. Install "Truth or Dare" from the plugin installer
+
 3. Type `/tod` to open the plugin window
 
 ## ⚙️ Setup
 
 ### Configuration
-- Open the plugin with `/tod`
-- Click "Configuration"
-- Set your **Character Name** (important for detecting your own rolls)
-- Set **Roll Timeout** to **17 seconds** (matches the macro timing)
+1. Open the plugin with `/tod`
+2. Click "Configuration"
+3. Set your **Character Name** (important for detecting your own rolls)
+4. Set **Roll Timeout** to 17 seconds (matches the macro timing)
 
 ### Required Macro
 Create this macro in-game and add `/todstart` where indicated:
@@ -55,6 +60,7 @@ Create this macro in-game and add `/todstart` where indicated:
 2. **Watch the plugin window** - You'll see rolls appear as people use `/random`
 3. **Get results automatically** - After the timeout, results appear in your chat as grey text
 4. **Copy and paste** - Copy the `/yell Winner: [name] | Strippers: [names]` line to yell chat
+5. **Optional**: Use "Pass to Next Winner" if the winner declines
 
 ### Example Output
 The plugin will output something like this to your chat:
@@ -65,7 +71,7 @@ The plugin will output something like this to your chat:
 ## 🔧 Commands
 
 - `/tod` - Open the main plugin window
-- `/tod config` - Open configuration directly  
+- `/tod config` - Open configuration directly
 - `/todstart` - Start collecting rolls (use in your macro)
 - `/todstop` - Stop the current game manually
 - `/todstatus` - Check current game status
@@ -73,17 +79,24 @@ The plugin will output something like this to your chat:
 ## 📋 Features
 
 ### Smart Winner Selection
+- **Automatic tiebreaker**: When multiple players roll the same highest number, whoever rolled first wins
 - **No repeat winners**: If the highest roller won the previous round, automatically selects the next highest
 - **Fallback protection**: If only the previous winner rolled, they win anyway (prevents deadlock)
+- **Pass functionality**: Easily pass the win to the next highest roller with one button
 
 ### Automatic Stripper Detection
-- Anyone rolling **100 or under** is automatically identified
+- Anyone rolling 100 or under is automatically identified
 - Clean output: "None" if nobody needs to strip
 
 ### Real-time Tracking
 - See rolls appear in the plugin window as they happen
-- Color-coded: Low rolls (≤100) in red, high rolls (≥900) in green
+- **Color-coded**: Low rolls (≤100) in red, high rolls (≥900) in green
 - Roll timeout prevents games from running too long
+
+### Debug Mode
+- Enable in configuration for easier testing
+- Use `/random 2` instead of `/random` for 50% chance of ties
+- Perfect for testing the tiebreaker system
 
 ## 🛠️ Troubleshooting
 
@@ -99,17 +112,23 @@ The plugin will output something like this to your chat:
 - Use the "Clear Last Winner" button in the main window
 - Or use `/tod` and click the clear button next to the last winner
 
+**Testing tiebreakers?**
+- Enable Debug Mode in configuration
+- Use `/random 2` to easily create ties for testing
+
 ## 💡 Tips
 
 - Keep the plugin window open during games to monitor rolls in real-time
 - The 17-second timeout works perfectly with the provided macro
 - Grey text in chat is your copy/paste line - look for it after "rolls are closed"
 - Plugin remembers the last winner between sessions
+- Use "Pass to Next Winner" if someone declines their dare
+- Debug mode makes testing much easier with `/random 2`
 
 ## 🎭 Perfect for RP Venues!
 
-This plugin was designed for FFXIV RP venues running Truth or Dare events. It eliminates manual work and ensures fair, consistent games every time.
+This plugin was designed for FFXIV RP venues running Truth or Dare events. It eliminates manual work and ensures fair, consistent games every time. The automatic tiebreaker system means you never have to manually decide between tied players - the first roller always wins!
 
 ---
 
-*Made with ❤️ for the FFXIV RP community*
+Made with ❤️ for the FFXIV RP community
