@@ -24,6 +24,6 @@
     "LastUpdate": 0,
     "IconUrl": "https://github.com/kirin-xiv/FFToD-Release/blob/main/icon.ico",
     "ImageUrls": [],
-    "Changelog": "- Initial release\n- Roll detection and winner selection\n- No repeat winners"
+    "Changelog": "New Pass to Next Winner Logic"
   }
 ]
