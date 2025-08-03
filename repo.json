@@ -22,7 +22,7 @@
     "DownloadLinkTesting": "https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/main/latest.zip",
     "DownloadCount": 0,
     "LastUpdate": 0,
-    "IconUrl": "https://github.com/kirin-xiv/FFToD-Release/blob/main/icon.ico",
+    "IconUrl": "https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/refs/heads/main/icon.ico",
     "ImageUrls": [],
     "Changelog": "New Pass to Next Winner Logic"
   }
