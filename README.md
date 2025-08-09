@@ -112,9 +112,13 @@ The plugin will output something like this to your chat:
 - Use the "Clear Last Winner" button in the main window
 - Or use `/tod` and click the clear button next to the last winner
 
-**Testing tiebreakers?**
-- Enable Debug Mode in configuration
-- Use `/random 2` to easily create ties for testing
+**Tiebreaker Logic**
+- Rolls are assorted by time.
+- Whoever rolled first in a tie scenario takes the win.
+
+- **Debug Mode**
+- Debug mode enables you to alter the syntax detection on rolls.
+- It's mostly just for me.
 
 ## 💡 Tips
 
