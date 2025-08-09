@@ -5,7 +5,7 @@
   "AssemblyVersion": "1.5.0.0",
   "Description": "Automated Truth or Dare roll management for FFXIV social events.\n\nFeatures:\n• Monitors chat for /random roll results automatically\n• Determines winners based on highest rolls with smart tiebreaking\n• Tracks and excludes previous round winners\n• Identifies 'strippers' (rolls ≤100) for penalty rounds\n• Configurable roll timeout and player management\n• Easy-to-copy results for /yell announcements\n\nPerfect for automating Truth or Dare games at FC events, parties, and social gatherings. Just start the game, have everyone /random, and let the plugin handle the rest!",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/kirin-xiv/FFToD",
+  "RepoUrl": "https://github.com/kirin-xiv/FFToD-Release",
   "Tags": [
     "minigame",
     "social",
