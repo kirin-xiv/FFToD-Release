@@ -31,7 +31,7 @@ Automates Truth or Dare games in FFXIV by tracking rolls and determining winners
 1. Open the plugin with `/tod`
 2. Click "Configuration"
 3. Set your **Character Name** (important for detecting your own rolls)
-4. Set **Roll Timeout** to 17 seconds (matches the macro timing)
+4. Set **Roll Timeout** to 15 seconds (matches the macro timing)
 
 ### Required Macro
 Create this macro in-game and add `/todstart` where indicated:
