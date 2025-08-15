@@ -1,4 +1,4 @@
-<img width="1442" height="1079" alt="image" src="https://github.com/user-attachments/assets/2229cb7e-baec-406f-9372-6306aa783bda" /># Truth or Dare Plugin
+# Truth or Dare Plugin
 
 **Run ToD, Brain off!**
 
