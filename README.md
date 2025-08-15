@@ -1,4 +1,4 @@
-# Truth or Dare Plugin
+<img width="1442" height="1079" alt="image" src="https://github.com/user-attachments/assets/2229cb7e-baec-406f-9372-6306aa783bda" /># Truth or Dare Plugin
 
 **Run ToD, Brain off!**
 
@@ -31,7 +31,7 @@ Automates Truth or Dare games in FFXIV by tracking rolls and determining winners
 1. Open the plugin with `/tod`
 2. Click "Configuration"
 3. Set your **Character Name** (important for detecting your own rolls)
-4. Set **Roll Timeout** to 15 seconds (matches the macro timing)
+4. Set **Roll Timeout** to 17 seconds (matches the macro timing)
 
 ### Required Macro
 Create this macro in-game and add `/todstart` where indicated:
@@ -40,6 +40,7 @@ Create this macro in-game and add `/todstart` where indicated:
 /sh Truth or Dare: High roll (/random) chooses someone this round. You cannot win two rounds in a row. <wait.2>
 /sh Keep T/D in /yell. <wait.2>
 /sh Max 3 rounds per dare. If you roll 100 or under, remove one item of clothing of your choice. <wait.2>
+/sh WiFi: https://discord.gg/ndb6BH5B <wait.2>
 /sh High numbers cannot win twice in a row. If a repeat occurs, we move to second highest. <wait.2>
 /sh --- Rolls begin on 'Go!' after a short countdown --- <wait.2>
 /sh 3... <wait.2>
