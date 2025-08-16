@@ -1,5 +1,20 @@
 # Truth or Dare Plugin
 
+> ## 🔄 **REPOSITORY MIGRATION NOTICE**
+> 
+> **This plugin has moved to a centralized repository!**
+> 
+> **New Installation URL:** 
+> ```
+> https://raw.githubusercontent.com/kirin-xiv/KirinPlugins/main/pluginmaster.json
+> ```
+> 
+> **Please update your Dalamud settings** to use the new central repository for better updates and access to all Kirin plugins.
+> 
+> [📋 View Migration Guide](./MIGRATION_NOTICE.md) | [🏠 Central Repository](https://github.com/kirin-xiv/KirinPlugins)
+
+---
+
 **Run ToD, Brain off!**
 
 Automates Truth or Dare games in FFXIV by tracking rolls and determining winners automatically. No more manual counting or forgetting who won last round!
@@ -16,6 +31,13 @@ Automates Truth or Dare games in FFXIV by tracking rolls and determining winners
 
 ## 📥 Installation
 
+### ✅ Recommended: Central Repository
+1. Add this repository URL to your Dalamud plugin sources:
+   ```
+   https://raw.githubusercontent.com/kirin-xiv/KirinPlugins/main/pluginmaster.json
+   ```
+
+### ⚠️ Legacy: Individual Repository (Deprecated)
 1. Add this repository URL to your Dalamud plugin sources:
    ```
    https://raw.githubusercontent.com/kirin-xiv/FFToD-Release/main/repo.json
